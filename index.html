@@ -87,4 +87,8 @@ function showPage(id){document.querySelectorAll('.page').forEach(p=>p.classList.
 function quick(t){document.getElementById('prompt').value=t;sendPrompt();}
 function sendPrompt(){const el=document.getElementById('prompt');const t=el.value.trim();if(!t)return;alert('Das Chat-Eingabefeld ist vorbereitet, aber noch nicht mit einem KI-Backend verbunden. Anfrage: '+t);el.value='';}
 document.getElementById('prompt').addEventListener('keydown',e=>{if(e.key==='Enter')sendPrompt()});
-</script></body></html>
+</script>
+<!-- ULTIMA Membership & Credits -->
+<script src="https://ultima-membership-api.onrender.com/membership-widget.js"></script>
+<script>(function(){var sites={"trinity-trading-k03l.onrender.com":["trinity-trading","Trinity Trading"]};var entry=sites[location.hostname];if(entry&&window.UltimaMembership)window.UltimaMembership.init({siteSlug:entry[0],brand:entry[1]});})();</script>
+</body></html>
